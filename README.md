@@ -57,7 +57,7 @@ To run the app locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/abhishek_maurya576/ai-text-summarizer-app.git
-   cd ai-text-summarizer-app
+   cd AI-Text-Summarize-app
    ```
 
 2. **Install dependencies**:
