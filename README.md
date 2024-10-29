@@ -1,4 +1,4 @@
-I've updated the GitHub link in the `README.md`. Here is the revised version:
+Here's the updated `README.md` with the repository name:
 
 ```markdown
 # AI Text Summarizer App
@@ -56,7 +56,7 @@ To run the app locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/abhishek_maurya576/ai-text-summarizer-app.git
+   git clone https://github.com/abhishek_maurya576/AI-Text-Summarize-app.git
    cd AI-Text-Summarize-app
    ```
 
@@ -108,6 +108,3 @@ Contributions are welcome! Please follow these steps:
 ## License
 
 This project is licensed under the MIT License.
-```
-
-This version includes your GitHub username in the repository link. Let me know if you need any other adjustments!
