@@ -28,8 +28,6 @@ The application interface allows you to paste text into a text area, hit the "Su
 
 ## Project Structure
 
-
-
 .
 ├── public
 │   ├── index.html           # Main HTML file
