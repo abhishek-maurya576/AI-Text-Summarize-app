@@ -39,7 +39,7 @@ The application interface allows you to paste text into a text area, hit the "Su
 ├── summarize.js             # Text summarization logic using Hugging Face API
 ├── .env                     # Environment variables (API key)
 └── README.md                # Project documentation
-```
+
 
 ## Technologies Used
 
