@@ -1,6 +1,4 @@
-Here's the updated `README.md` with the repository name:
 
-```markdown
 # AI Text Summarizer App
 
 Welcome to the **AI Text Summarizer App**, a web-based application that leverages Artificial Intelligence to summarize long texts quickly. This application uses the Hugging Face API for NLP to generate concise summaries, making it ideal for processing articles, research papers, or lengthy documents.
@@ -30,7 +28,6 @@ The application interface allows you to paste text into a text area, hit the "Su
 
 ## Project Structure
 
-```plaintext
 .
 ├── public
 │   ├── index.html           # Main HTML file
@@ -40,7 +37,7 @@ The application interface allows you to paste text into a text area, hit the "Su
 ├── summarize.js             # Text summarization logic using Hugging Face API
 ├── .env                     # Environment variables (API key)
 └── README.md                # Project documentation
-```
+
 
 ## Technologies Used
 
