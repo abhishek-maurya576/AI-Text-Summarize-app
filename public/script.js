@@ -8,7 +8,7 @@ submitButton.addEventListener("click", submitData);
 // First, we disable the submit button by default when the user loads the website.
 submitButton.disabled = true;
 
-// Define a function called verifyTextLength(). This function will be called when the user enters something in the text area. It receives an event, called ‘e’ here.
+// Define a function called verifyTextLength(). This function will be called when the user enters something in the text area. It receives an event, called 'e' here.
 function verifyTextLength(e) {
   const textarea = e.target;
 
@@ -24,11 +24,8 @@ function submitData(e) {
   submitButton.classList.add("submit-button--loading");
   const text_to_summarize = textArea.value;
 
-  // INSERT CODE SNIPPET FROM POSTMAN BELOW
-
   const myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
-  myHeaders.append("Authorization", "Bearer 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");
 
   const raw = JSON.stringify({
     "text_to_summarize": text_to_summarize,

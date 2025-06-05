@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const summarizeText = require('./summarize.js');
 
 // Parses JSON bodies (as sent by API clients)
@@ -8,6 +8,11 @@ app.use(express.json());
 
 // Serves static files from the 'public' directory
 app.use(express.static('public'));
+
+// Add a route handler for the root path
+app.get('/', (req, res) => {
+  res.sendFile('index.html', { root: './public' });
+});
 
 // Handle POST requests to the '/summarize' endpoint
 app.post('/summarize', async (req, res) => {

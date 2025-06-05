@@ -9,13 +9,15 @@ async function summarizeText(text) {
     }
   });
 
+  const apiKey = process.env.HUGGINGFACE_API_KEY || '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';
+
   let config = {
     method: 'post',
     maxBodyLength: Infinity,
     url: 'https://api-inference.huggingface.co/models/facebook/bart-large-cnn',
     headers: { 
       'Content-Type': 'application/json', 
-      'Authorization': 'Bearer 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'
+      'Authorization': `Bearer ${apiKey}`
     },
     data: data
   };
